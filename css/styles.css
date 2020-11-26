@@ -4,8 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat';
-  font-weight: 700;
+  font-family: "Montserrat-Bold";
 }
 
 p {
@@ -13,8 +12,9 @@ p {
 }
 
 /* Headings */
+
 .big-heading {
-  font-weight: 900;
+  font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -26,7 +26,7 @@ p {
 
 /* Containers */
 
-.container-fluid {
+.container-fluid{
   padding: 7% 15%;
 }
 
@@ -38,10 +38,11 @@ p {
 }
 
 .white-section {
-background-color: #fff;
+  background-color: #fff;
 }
 
-/* Navigation Bar  */
+/* Navigation Bar */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -58,33 +59,39 @@ background-color: #fff;
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat";
-  font-weight: 300;
+  font-family: "Montserrat-Light";
 }
 
-/* Download Buttons */
+/* Buttons */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Section  */
+/* Title Section */
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
 }
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 28%;
+  right: 30%;
 }
 
 /* Features Section */
+
 #features {
-  z-index: 1;
   position: relative;
 }
 
@@ -93,7 +100,7 @@ background-color: #fff;
 }
 
 .feature-box {
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .icon {
@@ -106,6 +113,7 @@ background-color: #fff;
 }
 
 /* Testimonial Section */
+
 #testimonials {
   background-color: #ef8172;
 }
@@ -121,6 +129,7 @@ background-color: #fff;
   margin: 20px;
 }
 
+
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
@@ -131,7 +140,8 @@ background-color: #fff;
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section  */
+/* Pricing Section */
+
 #pricing {
   padding: 100px;
 }
@@ -145,14 +155,18 @@ background-color: #fff;
   padding: 3% 2%;
 }
 
-/* Call To Action */
+/* CTA Section */
 
-/* Footer */
+
+/* Footer Section */
+
+
 .social-icon {
   margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
+
   #title {
     text-align: center;
   }
@@ -162,3 +176,4 @@ background-color: #fff;
     transform: rotate(0);
   }
 }
+
