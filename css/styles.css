@@ -103,12 +103,12 @@ p {
   padding: 4.5%;
 }
 
-.icon {
+.i{
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.icon:hover {
+.i:hover {
   color: #ff4c68;
 }
 
